@@ -24,5 +24,6 @@ for i in range(len(word)):
     for j in Scoredict:
         if word[i] in Scoredict[j]:
             score+=j
+            break
 
 print(score)            
